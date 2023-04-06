@@ -19,3 +19,12 @@ elif(num1 > num2 > num3):
     print(f"a ordem é {num1},{num2},{num3}")
 elif(num2 > num1 > num3):
     print(f"a ordem é {num2},{num1},{num3}")
+algoritimo 2 numeros qual é o maior
+num1 = int(input("Digite um numero : "))
+num2 = int(input("Digite um numero : "))
+if(num1 > num2):
+    print(f"o numero {num1} é maior que o {num2}.")
+elif(num1 > num1 ):
+    print(f"o numero {num2} é maior que o {num1}.")
+elif(num1 == num2):
+    print(f"o numero {num1} é igual ao {num2}. ")
